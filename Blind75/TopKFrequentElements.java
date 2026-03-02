@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class TopKFrequentElements {
+    // Question: Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+    
       public int[] topKFrequent(int[] nums, int k) {
        Map<Integer, Integer> count = new HashMap<>();
         for (int num : nums) {

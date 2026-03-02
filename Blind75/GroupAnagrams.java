@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 
 public class GroupAnagrams {
+    // Question: Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+    
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> res = new HashMap<>();
 
