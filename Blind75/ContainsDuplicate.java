@@ -1,4 +1,3 @@
-package Blind75;
 import java.util.HashSet;
 
 public class ContainsDuplicate {
